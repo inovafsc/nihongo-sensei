@@ -2,34 +2,40 @@
 
 Sistema completo para aprender japonês — do zero ao intermediário.
 
-## Abrir online
+## Como publicar / abrir
 
-**GitHub Pages:** https://inovafsc.github.io/nihongo-sensei/
+### 1) Online agora (túnel temporário)
+Se o servidor local ainda estiver ativo na sessão de publicação, use o link gerado no momento do deploy.
+
+### 2) GitHub Pages (permanente)
+1. Faça upload de `index.html` e `app.js` neste repositório (raiz).
+2. Vá em **Settings → Pages → Source: Deploy from a branch → main / (root)**.
+3. Aguarde 1–2 minutos.
+4. Abra: **https://inovafsc.github.io/nihongo-sensei/**
+
+### 3) Netlify Drop (mais fácil)
+1. Acesse https://app.netlify.com/drop
+2. Arraste a pasta com `index.html` + `app.js`
+3. Pronto — recebe um link público.
+
+## Arquivos do app
+- `index.html` — interface
+- `app.js` — lógica, conteúdo, personagens e vozes
 
 ## O que tem
-
-- Kana (hiragana, katakana, dakuten, yōon) com áudio
-- Gramática N5 → N3
-- Vocabulário por categorias
-- Kanji N5/N4 + radicais
-- Prática de escrita
-- Conversação com **5 personagens** e **vozes diferentes**
-- Leitura com furigana
-- Revisão SRS e quizzes
-- Progresso e XP salvos no navegador
-
-## Como usar localmente
-
-Abra `index.html` no Chrome ou Edge (melhor suporte de voz japonesa).
+- Kana com áudio
+- Gramática N5→N3
+- Vocabulário, kanji, escrita
+- Conversação com 5 personagens e vozes diferentes
+- Leitura, SRS e quizzes
 
 ## Personagens
-
-| Personagem | Estilo de voz |
-|------------|---------------|
+| Personagem | Estilo |
+|------------|--------|
 | Yuki | Paciente, fala devagar |
-| Kenji | Energético, fala rápido |
-| Sakura | Casual e jovem |
-| Takeshi | Formal e pausado |
-| Aiko | Guia cultural |
+| Kenji | Energético |
+| Sakura | Casual |
+| Takeshi | Formal |
+| Aiko | Cultural |
 
-Feito para estudo autodidata em português.
+Use **Chrome** ou **Edge** para melhor voz em japonês.
